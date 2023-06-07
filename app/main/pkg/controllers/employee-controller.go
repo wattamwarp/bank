@@ -3,9 +3,9 @@ package controllers
 import (
 	"net/http"
 
-	"bank.com/bank/main/pkg/models"
-	"bank.com/bank/main/pkg/services"
-	"bank.com/bank/main/pkg/utils"
+	"bank.com/bank/app/main/pkg/models"
+	"bank.com/bank/app/main/pkg/services"
+	"bank.com/bank/app/main/pkg/utils"
 )
 
 func GetEmployees(w http.ResponseWriter, r *http.Request) {

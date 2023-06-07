@@ -1,7 +1,7 @@
 package models
 
 import (
-	"bank.com/bank/main/pkg/config"
+	"bank.com/bank/app/main/pkg/config"
 	"github.com/jinzhu/gorm"
 )
 

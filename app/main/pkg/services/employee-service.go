@@ -1,10 +1,10 @@
 package services
 
 import (
-	"bank.com/bank/main/pkg/config"
-	"bank.com/bank/main/pkg/constants"
-	"bank.com/bank/main/pkg/models"
-	"bank.com/bank/main/pkg/utils"
+	"bank.com/bank/app/main/pkg/config"
+	"bank.com/bank/app/main/pkg/constants"
+	"bank.com/bank/app/main/pkg/models"
+	"bank.com/bank/app/main/pkg/utils"
 )
 
 func GetEmployess() []models.Employees {

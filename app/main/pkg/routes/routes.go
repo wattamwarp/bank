@@ -1,9 +1,11 @@
 package routes
 
 import (
-	"bank.com/bank/main/pkg/controllers"
+	"bank.com/bank/app/main/pkg/controllers"
 	"github.com/gorilla/mux"
 )
+
+
 
 var BankRoutes = func(router *mux.Router) {
 	// router.HandleFunc("/usernew", controllers.GetUserNew).Methods("GET")
