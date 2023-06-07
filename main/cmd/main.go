@@ -25,5 +25,4 @@ func main() {
 func dbMigration() {
 	models.InitUserDetails()
 	models.EmployeesMigration()
-	models.CompanyMigration()
 }
