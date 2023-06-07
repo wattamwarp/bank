@@ -5,7 +5,7 @@ import (
 	"net/http"
 
 	"bank.com/bank/app/main/pkg/models"
-	"bank.com/bank/main/pkg/routes"
+	"bank.com/bank/app/main/pkg/routes"
 	"github.com/gorilla/mux"
 )
 
