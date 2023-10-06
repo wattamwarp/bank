@@ -1,4 +1,4 @@
-version: "3"
+version: "3.8"
 services:
   api:
     build:
@@ -16,12 +16,13 @@ services:
 
   db:
     image: mysql:8.0
+    container_name: godockerDB
     env_file: .env
     environment:
-      MYSQL_DATABASE: ${MYSQL_DATABASE}
-      MYSQL_USER: ${MYSQL_USER}
-      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
-      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+      MYSQL_DATABASE: test_go
+      MYSQL_USER: root
+      MYSQL_ROOT_PASSWORD: Vahak@123
+      MYSQL_PASSWORD: Vahak@123
       TZ: "Asia/Tokyo"
     command: mysqld --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci
     volumes:

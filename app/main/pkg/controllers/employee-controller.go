@@ -14,6 +14,8 @@ func GetEmployees(w http.ResponseWriter, r *http.Request) {
 	employess = services.GetEmployess()
 
 	utils.ReturnResponse(w, employess, http.StatusOK)
+	println("api is called")
+	// utils.ReturnResponse(w, "hello world bank !", http.StatusOK)
 
 }
 

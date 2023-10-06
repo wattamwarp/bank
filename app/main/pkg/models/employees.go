@@ -16,6 +16,6 @@ type Employees struct {
 
 func EmployeesMigration() {
 	config.DbConnect()
-	db = config.GetDbConnection()
+	db := config.GetDbConnection()
 	db.AutoMigrate(&Employees{})
 }
